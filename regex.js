@@ -9,6 +9,6 @@ let textoCensurado = null;
 
     Reemplazar este comentario con su codigo.
  */
-let regex = /([a-zA-Z])\w+/g;
+let regex = /([a-zA-Z])/g;
 textoCensurado = texto.replace(regex,'X');
 console.log(textoCensurado);
